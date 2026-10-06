@@ -3037,6 +3037,14 @@ div#exibirFormasPagamento .btn.btn-small {
    background: var(--surface-soft);
 }
 
+.h-user::before {
+   content: "";
+   background: url(https://cdn.awsli.com.br/2942/2942234/arquivos/user.svg) center no-repeat;
+   background-size: 100%;
+   width: 24px;
+   height: 24px;
+}
+
 .tema-cabecalho-dark .h-menu, .tema-cabecalho-dark .h-search, .tema-cabecalho-dark .h-user {
    background: var(--white-alpha-10);
 }
@@ -3047,6 +3055,10 @@ div#exibirFormasPagamento .btn.btn-small {
 
 .tema-cabecalho-dark #cabecalho .h-user img {
    display: none;
+}
+
+.h-menu img, .h-search img, .h-user img {
+   filter: brightness(0) invert(1);
 }
 
 .h-actions {
