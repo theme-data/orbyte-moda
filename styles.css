@@ -5317,3 +5317,7 @@ table .font-15,
    border: 1px solid #d8d8d8;
    color: var(--black)!important;
 }
+
+#barraNewsletter, #barraNewsletter .show-hide, #barraNewsletter .componente, #barraNewsletter.posicao-rodape .conteiner {
+   background: transparent;
+}
