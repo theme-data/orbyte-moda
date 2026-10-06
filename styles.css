@@ -157,14 +157,6 @@ input:focus {
    height: 24px;
 }
 
-.h-user::before {
-   content: "";
-   background: url(https://cdn.awsli.com.br/2942/2942234/arquivos/user.svg) center no-repeat;
-   background-size: 100%;
-   width: 24px;
-   height: 24px;
-}
-
 .icon-search::before {
    content: "";
    background: url(https://cdn.awsli.com.br/2942/2942234/arquivos/search.svg) center no-repeat;
@@ -3000,7 +2992,7 @@ div#exibirFormasPagamento .btn.btn-small {
    top: 0;
    display: flex;
    flex-direction: column;
-   background: var(--black);
+   background: var(--white);
    width: 80%;
    height: 100dvh;
    box-shadow: 0 0 0 9999px var(--black-alpha-50);
@@ -3043,10 +3035,7 @@ div#exibirFormasPagamento .btn.btn-small {
    justify-content: center;
    background: var(--white-alpha-10);
    border-radius: 99px;
-}
-
-.h-menu img, .h-search img, .h-user img {
-   filter: brightness(0) invert(1);
+   background: var(--surface-soft);
 }
 
 .listagem .vitrine-com-banner-contador {
