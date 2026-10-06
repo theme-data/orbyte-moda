@@ -1130,12 +1130,12 @@ body:not(.pagina-inicial) .c-slide-section {
 }
 
 .links-rodape ul li:hover a {
-   color: var(--brand-color);
+   color: var(--white);
    text-decoration: none;
 }
 
 button.whatsapp-btn:hover {
-   color: var(--brand-color);
+   color: var(--white);
 }
 
 .atendimento-rodape ul *:hover {
@@ -1207,7 +1207,7 @@ button.whatsapp-btn:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--texto-rodape);
+    color: var(--white);
 }
 
 .lista-redes li {
