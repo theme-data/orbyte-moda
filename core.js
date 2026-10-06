@@ -230,7 +230,7 @@ $(function () {
   }).join('');
   
   // Adiciona o bloco antes de #listagemProdutos
-  $('.secao-banners').before(`
+  $('.secao-banners').after(`
   <div class="c-slide-section">
       <ul class="c-slide">
           ${categoriaLis}
