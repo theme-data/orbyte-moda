@@ -417,7 +417,7 @@ span.bn-t-title {
 }
 
 .secao-banners .conteiner {
-   padding: 0 32px 0;
+   padding: 32px 32px 0;
    max-width: 1500px;
    box-sizing: border-box;
 }
@@ -583,6 +583,14 @@ span.bn-t-title {
    position: relative;
    width: 100%;
    mix-blend-mode: multiply;
+}
+
+.listagem .imagem-produto img.imagem-zoom {
+   position: absolute;
+}
+
+.mini-banner .modulo.span4.sem-banner {
+   display: none;
 }
 
 .listagem .listagem-item {
