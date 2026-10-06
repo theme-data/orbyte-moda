@@ -3037,6 +3037,10 @@ div#exibirFormasPagamento .btn.btn-small {
    background: var(--surface-soft);
 }
 
+.tema-cabecalho-dark .h-menu, .tema-cabecalho-dark .h-search, .tema-cabecalho-dark .h-user {
+   background: var(--white-alpha-10);
+}
+
 .listagem .vitrine-com-banner-contador {
    padding: 16px !important;
 }
@@ -3508,7 +3512,7 @@ a.atalho-menu {
    cursor: pointer;
    padding: 20px;
    margin-bottom: 20px;
-   background: var(--black-alpha-05);
+   background: var(--white-alpha-05);
 }
 
 .chev {
@@ -3534,6 +3538,7 @@ a.atalho-menu {
 
 .chev img {
    max-width: 18px;
+   filter: brightness(0) invert(1);
 }
 
 #rodape .institucional .lista-redes ul {
