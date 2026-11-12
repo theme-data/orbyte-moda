@@ -5321,3 +5321,8 @@ table .font-15,
 #barraNewsletter, #barraNewsletter .show-hide, #barraNewsletter .componente, #barraNewsletter.posicao-rodape .conteiner {
    background: transparent;
 }
+
+#rodape>div:last-child .row-fluid div:last-child img {
+   max-width: 160px!important;
+   margin-top: 4px;
+}
